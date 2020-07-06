@@ -1,0 +1,135 @@
+input[type="text"],
+input[type="number"] {
+	width: 100px;
+}
+
+#cuadro {
+	width: 700px;
+
+
+}
+
+.barra {
+	height: 90px;
+}
+
+input {
+	display: inline-block;
+	min-width: 100px;
+	width: 100%;
+	border-collapse: collapse;
+	height: 100px;
+}
+
+main .container-fluid .row .section-table .container-fluid .row .col button {
+	margin-top: 25px;
+}
+
+main .container-fluid .row .section-table .container-fluid .row .col {
+	padding-right: 20%;
+	text-align: justify;
+	width: 60%;
+	margin-top: 5%;
+	margin-left: 10%;
+	height: 500px;
+}
+
+main .container-fluid .row .section-table {
+	padding-top: 1cm;
+	width: auto;
+	float: left;
+}
+
+main .section-1 .container-fluid .row .section-table .container-fluid {
+	background-color: aliceblue;
+	height: auto;
+	width: max-content;
+	padding-bottom: 4cm;
+}
+
+main .section-1 .container-fluid .row .section-table {
+	background-color: #3a645d;
+	height: auto;
+	width: max-content;
+	padding-bottom: 4cm;
+}
+
+main .section-1 .container-fluid .nav .nav-item .nav-link .palabra {
+	padding-top: 10%;
+}
+
+main .section-1 .container-fluid .nav .nav-item {
+	text-align: center;
+	padding-left: 10px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+main .section-1 .container-fluid .nav .nav-item a {
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	border-color: #3a645d;
+	padding: 10px 90px 10px 90px;
+	width: 280px;
+	height: 70px;
+	text-align: center;
+}
+
+main .section-1 .container-fluid .nav .nav-item a:hover {
+	background-color: #2f524c;
+}
+
+main .section-1 .container-fluid .nav .nav-item a:focus {
+	background-color: #2f524c;
+}
+
+main .section-1 .container-fluid {
+	background-color: #5B8C85;
+	width: 100%;
+}
+
+#logo_cabecera {
+	width: 220px;
+	height: auto;
+	padding-top: 11px;
+	padding-bottom: 11px;
+}
+
+header .container-fluid {
+	background-color: #434E52;
+	height: auto;
+	width: 100%;
+}
+
+footer {
+	background-color: #434E52;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	font-size: 0.7cm;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-decoration: none;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+#footer_link {
+	text-decoration: none;
+	color: rgb(7, 214, 187);
+}
+
+html {
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
+body {
+	margin: auto;
+}

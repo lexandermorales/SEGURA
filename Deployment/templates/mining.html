@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+
+<head>
+    <!-- Nuevo -->
+    <!--    Bootstrap v2.3.2 -->
+    <link rel="stylesheet" media="all"
+        href="https://s3.amazonaws.com/dynatable-docs-assets/css/bootstrap-2.3.2.min.css" />
+    <!-- Plugin styles -->
+    <link rel="stylesheet" media="all" href="https://s3.amazonaws.com/dynatable-docs-assets/css/jquery.dynatable.css" />
+    <!--  jQuery v3.0.0-beta1 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.js"></script>
+    <!-- End -->
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Slabo+27px&display=swap" rel="stylesheet">
+    <!-- font-family: 'Roboto', sans-serif;
+            font-family: 'Slabo 27px', serif; -->
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='./css/mining.css') }}">
+    <title>Obtener datos</title>
+</head>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><img
+                            src="{{ url_for('static',filename='./img/Logo.png') }}" alt="logo_cabecera"
+                            id="logo_cabecera"></a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="section-1">
+            <div class="barra-navegacion">
+                <div class="container-fluid">
+                    <ul class="nav nav-tabs justify-content-center mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" action="/dashboard">
+                                <div class="palabra">Inicio</div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('mining') }}">Extraer Comentarios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#}">Ver los comentarios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" action="/bad">Comentarios negativos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('logout') }}">Log Out</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <div class="section-table">
+                        <div class="container-fluid">
+                            <form action="" method="POST">
+                                <div class="row">
+                                    <div class="col" id="cuadro">
+                                        <label for="">
+                                            <h3>Coloque una palabra clave, que lo identifique, o se relacione con los
+                                                comentarios que quiere denunciar. (Solo aplica para Twitter)</h3>
+                                        </label>
+                                        <input type="text" name="palabra" class="form-control input-lg">
+                                        <label for="">
+                                            <h3>Coloque la cantidad de comentarios que quiera extraer.</h3>
+                                        </label>
+                                        <input type="number" name="cantidad" class="form-control input-lg">
+                                        <button type="submit" class="btn btn-info" value="submit">Siguiente</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </main>
+    </main>
+    <!-- Footer -->
+    <footer class="page-footer font-small">
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="https://www.youtube.com/channel/UCAHSbPZyWCuXKyoM8rnnNYA?view_as=subscriber"
+                id="footer_link">alexandermoralespanitz.me</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+        </script>
+    <script>
+        $(document).ready(function () {
+            $('.table').dynatable();
+        });
+    </script>
+    <!-- JS Pluging -->
+    <script type='text/javascript' src='https://s3.amazonaws.com/dynatable-docs-assets/js/jquery.dynatable.js'></script>
+</body>
+
+</html>

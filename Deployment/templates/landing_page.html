@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='./css/style.css') }}">
+    <!-- Bootstrap CSS -->
+    <title>SEGURA AI</title>
+</head>
+
+<body>
+    <header>
+        <!-- Nav-Bar -->
+        <div class="container-fluid p-0">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><img src="./img/Logo.png" alt="segura_logo" id="logo_segura"></a>
+                    <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse"
+                        data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">
+                            <i class="fas fa-bars" style="color:#fff; font-size:28px;"></i>
+                        </span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <div class="mr-auto"></div>
+                        <ul class="navbar-nav">
+                            <li class="nav-item px-3">
+                                <a class="nav-link" href="#1">Inicio<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item px-3">
+                                <a class="nav-link" href="#2">¿Para quién?</a>
+                            </li>
+                            <li class="nav-item px-3">
+                                <a class="nav-link" href="#3">¿Por qué?</a>
+                            </li>
+                            <li class="nav-item px-3">
+                                <a class="nav-link" href="#4">¿Cómo usar?</a>
+                            </li>
+                            <li class="nav-item px-3">
+                                <a class="nav-link" href="#5">Autor</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+        <!-- End-Nav-Bar -->
+        <!-- Landing-Page -->
+        <div class="container">
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-xl">
+                    <div class="container">
+                        <img src="{{ url_for('static',filename='./img/SEGURA_img.png') }}" class="img-fluid" alt="Responsive image">
+                        <div class="slogan-1">
+                            Inteligencia Artificial
+                        </div>
+                        <div class="slogan-2">
+                            en ayuda y protección contra el
+                            acoso
+                        </div>
+
+                        <a href="#"><button type="button" class="btn btn-primary btn-lg"
+                                id="boton_1">Iniciar</button></a>
+                        <a href="#"><button type="button" class="btn btn-secondary btn-lg"
+                                id="boton_2">Documentación</button></a>
+                    </div>
+                </div>
+                <div class="col-xl">
+                    <div class="text-center"><img src="./img/Imagen.png" class="img-fluid" alt="Responsive image"
+                            id="cerebro"></div>
+
+                </div>
+            </div>
+        </div>
+        <!-- End-Landing-Page -->
+        <!-- Container -->
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="frase">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia deserunt, obcaecati
+                    praesentium
+                    magni, architecto in similique accusamus ipsum atque illum nihil, voluptatum optio voluptate
+                    tempore
+                    cum facilis alias dolore necessitatibus.
+                </div>
+
+            </div>
+        </div>
+        <!-- End-Container -->
+    </header>
+    <main>
+        <!-- SECTION-1 -->
+        <section class="section-1">
+            <div class="container-fluid">
+                <div class="ml-auto"></div>
+                <div class="col">
+                    <div class="title">¿En qué consiste SEGURA AI?</div>
+                    <video src="./video/ui.mp4" controls></video>
+
+                </div>
+            </div>
+        </section>
+        <!-- End-SECTION-1 -->
+        <!-- SECTION-2 -->
+        <section class="section-2">
+        </section>
+        <!-- END-SECTION-2 -->
+        <!-- SECTION-3 -->
+        <section class="section-3">
+        </section>
+        <!-- END-SECTION-3 -->
+        <!-- SECTION-4 -->
+        <section class="section-4">
+        </section>
+        <!-- END-SECTION-4 -->
+        <!-- SECTION-5 -->
+        <section class="section-5">
+        </section>
+        <!-- END-SECTION- -->
+
+    </main>
+    <!-- Footer -->
+    <footer class="page-footer font-small blue">
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="https://www.youtube.com/channel/UCAHSbPZyWCuXKyoM8rnnNYA?view_as=subscriber"
+                id="footer_link">alexandermoralespanitz.me</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- End-Footer -->
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

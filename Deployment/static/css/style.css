@@ -1,0 +1,162 @@
+/* SECTION-1 */
+
+main .section-1 .container-fluid video {
+    width: 75%;
+    height: auto;
+}
+
+main .section-1 .container-fluid .col {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 4vw;
+    padding-top: 4%;
+    color: #38615b;
+}
+
+/* END-SECTION-1 */
+/* CONTAINER */
+header .container-fluid .row .frase {
+    background-color: #38615b;
+    width: 100%;
+    color: white;
+    text-transform: uppercase;
+    text-align: justify;
+    padding: 1%;
+    font-size: 1.5vw;
+}
+
+/* END-CONTAINER */
+
+
+/* LANDING */
+.slogan-1 {
+    padding-top: 4%;
+    font-size: 4.5vh;
+    text-align: left;
+    line-height: 30px;
+    font-weight: 560;
+}
+
+.slogan-2 {
+    padding-bottom: 20px;
+    font-size: 4vh;
+    text-align: left;
+    line-height: 39px;
+}
+
+#cerebro {
+    margin-top: 16%;
+    align-content: center;
+    width: 80%;
+
+}
+
+header .container .row .col-xl .container {
+    margin-top: 30%;
+}
+
+header .container .row .col-xl {
+    padding: ;
+}
+
+#boton_1 {
+    background-color: #797979;
+    border: none;
+    box-shadow: none;
+    width: auto;
+    height: auto;
+    font-size: 2vh;
+    white-space: normal;
+}
+
+#boton_1:hover {
+    background-color: #414141;
+    border: none;
+    box-shadow: none;
+    font-size: 2vh;
+    white-space: normal;
+}
+
+#boton_2 {
+    background-color: #4C7F78;
+    border: none;
+    box-shadow: none;
+    width: auto;
+    height: auto;
+    font-size: 2vh;
+    white-space: normal;
+}
+
+#boton_2:hover {
+    font-size: 2vh;
+    background-color: #38615b;
+    border: none;
+    box-shadow: none;
+    white-space: normal;
+}
+
+
+/* END-LANDING */
+
+/* HEADER */
+#logo_segura {
+    margin-left: 41%;
+}
+
+header .container-fluid .navbar {
+    background: #434E52;
+}
+
+header .container-fluid .navbar .nav-item {
+    text-align: center;
+}
+
+header .container-fluid .navbar .nav-item:hover {
+    background-color: #374144;
+}
+
+.nav-link {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none
+}
+
+header {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* END-HEADER */
+/* FOOTER */
+footer {
+    background-color: #434E52;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 0.7cm;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
+    width: 100%;
+    bottom: 0;
+    border-top: 10cm;
+    width: 100%;
+    float: left;
+    position: static;
+}
+
+#footer_link {
+    text-decoration: none;
+    color: rgb(7, 214, 187);
+}
+
+/* END-FOOTER */
+body {
+    margin: auto;
+}
